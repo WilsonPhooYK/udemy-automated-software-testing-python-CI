@@ -5,5 +5,5 @@ python:
 install:
  - "pip install pipenv"
  - "pipenv install"
-before_script: pipenv shell
+before_script: pip freeze
 script: pytest tests/

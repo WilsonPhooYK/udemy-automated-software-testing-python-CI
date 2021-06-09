@@ -14,6 +14,7 @@ flask-sqlalchemy = "*"
 psycopg2 = "*"
 flask-jwt = "*"
 pytest = "*"
+uwsgi = "*"
 
 [dev-packages]
 black = "==21.5b1"
