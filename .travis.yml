@@ -3,6 +3,7 @@ python:
  - "3.9"
  - "nightly"
 install:
+ - "apt-get install build-essential python3-dev"
  - "pip install pipenv"
  - "pipenv install"
 before_script: pip freeze
