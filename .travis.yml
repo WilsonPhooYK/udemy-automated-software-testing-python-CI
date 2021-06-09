@@ -5,4 +5,5 @@ python:
 install:
  - "pip install pipenv"
  - "pipenv install"
-script: pipenv shell && python -m pytest tests/
+before_script: pipenv shell
+script: pytest tests/
