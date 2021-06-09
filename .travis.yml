@@ -3,6 +3,6 @@ python:
  - "3.9"
  - "nightly"
 install:
- - "python -m pip install pipenv"
- - "python -m pipenv install"
-script: python -m pipenv shell && python -m pytest tests/
+ - "pip install pipenv"
+ - "pipenv install"
+script: pipenv shell && python -m pytest tests/
