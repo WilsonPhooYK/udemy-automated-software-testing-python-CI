@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/WilsonPhooYK/udemy-automated-software-testing-python-CI.svg?branch=main)](https://travis-ci.com/WilsonPhooYK/udemy-automated-software-testing-python-CI)
+
 # udemy-automated-software-testing-python
 1. [Automated Software Testing with Python](https://www.udemy.com/course/automated-software-testing-with-python/)
 2. Used with Pylance extension to practice typed annotations with Python as well.
@@ -29,3 +31,7 @@
 4. install Make for windows: `choco install make` as administrator.
 5. Run makefile: `make run-tests clear-db=true`
 
+# Travis
+1. [Travis CI](https://travis-ci.com/) - Sign in with github
+2. Create `.travis.yml` file at root.
+3. Add to readme. At Travis dashbard, click on the badge and select format: markdown and copy on top of the readme file.
